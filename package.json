@@ -1,0 +1,37 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "A test app for learning webrtc concepts.",
+  "main": "index.production.js",
+  "scripts": {
+    "test": "echo \"Hello World!\"",
+    "start": "node index.production.js",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnav-kr/webrtc.git"
+  },
+  "keywords": [
+    "webrtc",
+    "video",
+    "calling",
+    "p2p",
+    "sockets"
+  ],
+  "author": "Arnav Kumar <arnav-kumar@outlook.com> (https://github.com/arnav-kr)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arnav-kr/webrtc/issues"
+  },
+  "homepage": "https://github.com/arnav-kr/webrtc#readme",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2",
+    "websocket": "^1.0.34"
+  }
+}
